@@ -26,17 +26,6 @@ const backupFolder = `export-${exportDate}`;
 (async () => {
   let response;
 
-  /*
-  response = {
-    accept: "okay",
-    action: "export",
-    endpoint: "https://cloud.appwrite.io/v1",
-    email: "matej@appwrite.io",
-    password: "YPT-330piano",
-    projectId: "migrationTest",
-  };
-  */
-
   console.log("🚧 THIS SCRIPT DOES NOT BACKUP:");
   console.log(" - Function Deplyoments (will be deleted)");
   console.log(" - User Sessions (will be deleted)");
